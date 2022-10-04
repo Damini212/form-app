@@ -1,0 +1,41 @@
+.data-page {
+  margin: 10px;
+  width: 500px;
+  padding: 10px;
+  font-family: sans-serif;
+}
+.data-container {
+  display: grid;
+  grid-template-columns: repeat(4, 350px);
+  gap: 30px;
+  align-items: center;
+}
+.data-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 300px;
+  align-items: center;
+  border-radius: 10px;
+  background-color: aliceblue;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  line-break: anywhere;
+  box-shadow: 3px 3px 2px 3px;
+}
+.trash-icon {
+  height: 30px;
+  padding-top: 200px;
+}
+.data-items {
+  padding: 5px;
+}
+.home-btn {
+  background-color: rgb(0, 9, 17);
+  color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 50px;
+  height: 30px;
+  font-size: bold;
+}
