@@ -29,7 +29,7 @@ export default function Data(props){
           <img className="trash-icon" src="trash bucket.png" onClick={() => props.deleteData(index)}/>
           </div>
           
-      s
+      
         </div>
             
         )
